@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700;900&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    background: rgb(48, 48, 48);
+}
+
+
+.container {
+
+margin: 0px auto;
+width: 100%;
+height: 100%;
+width: 920px;
+height: 820px;
+
+}
+
+.graph-style {
+display: flex;
+position: relative;
+top: 55px;
+left: 255px;
+width: 358px;
+height: 580px;
+background: linear-gradient(#212630, #353a44);
+border-radius: 6px;
+line-height: 5.0;   
+
+justify-content: center;
+/* opacity: 0.9; */
+
+}
+
+/* GRAPH */
+
+h1 {
+
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 27.4px;
+    user-select: none;
+    
+}
+
+.graph-dual-t-i {
+
+
+display: flex;
+right: 50px;
+
+}
+
+/*  */
+
+.graph-dsgn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    right: -25px;
+    bottom: 90px;
+
+    }
+
+/*  BALL  */
+    
+.graph-circle {
+
+    border-top: 15px solid black;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+    border-left: 15px solid  black;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    transform: rotate(-45deg);
+    width: 0px;
+    height: 0px;
+
+
+}
+
+
+.c-elip {
+
+position: relative;
+bottom: 7px;
+left: -4.7px;
+width: 0;
+height: 0;
+border-left: 13px solid transparent;
+border-right: 13px solid transparent;
+border-top: 14px solid white;
+border-radius: 50%;
+transform: rotate(90deg);
+
+}
+
+/* Tv */
+
+.graph-tv-cont {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+
+}
+
+.graph-tv {
+    position: relative;
+    display: flex;
+    width: 110px;
+    height: 90px;
+    background: linear-gradient(#425b8d, #614c6b);
+    border: 5px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.graph-tv .rack-tv-1 {
+    position: relative;
+    top: 78px;
+    left: -10px;
+    width: 120px;
+    height: 8px;
+    background: black;
+    border-radius: 5px;
+
+
+}
+
+
+.rack-tv-2 {
+
+    position: relative;
+    top: 90px;
+    left: 7px;
+    width: 55px;
+    height: 5.5px;
+    background: black;
+    border-radius: 5px;
+    transform: rotate(-45deg);
+
+}
+
+
+.rack-tv-3 {
+    position: relative;
+    top: 85px;
+    left: 38px;
+    width: 55px;
+    height: 5.5px;
+    background: black;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+
+
+/* HAMB CONT */
+
+
+.hamb-cont {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    left: 90px;
+    bottom: 60px;
+
+}
+
+
+
+.m-hamb {
+
+    position: relative;
+    margin-bottom: 4px;
+    width: 25px;
+    height: 5px;
+    background: white;
+    border-radius: 4px;
+
+}
+
+
+
+
