@@ -28,6 +28,20 @@ height: 820px;
 
 }
 
+
+
+:root {
+ 
+    --red-text: #eb4539;
+    --red-ball: rgb(209, 21, 21);
+    --green-ball: #7ed955;
+    --yellow-ball: #ffde58;
+    --aqua-01: rgb(143, 229, 208);
+    --w: #fff;
+
+}
+
+
 .graph-style {
 display: flex;
 position: relative;
@@ -47,7 +61,7 @@ justify-content: center;
 
 h1 {
     text-align: center;
-    color: white;
+    color: var(--w);
     font-family: 'DM Sans', sans-serif;
     font-size: 27.4px;
     user-select: none;
@@ -102,7 +116,7 @@ width: 0;
 height: 0;
 border-left: 8px solid transparent;
 border-right: 8px solid transparent;
-border-top: 10px solid #fff;
+border-top: 10px solid var(--w);
 border-radius: 50%;
 transform: rotate(90deg);
 
@@ -125,7 +139,7 @@ transform: rotate(90deg);
     width: 75px;
     height: 50px;
     background: linear-gradient(#ac6f2a, #455761);
-    border: 3px solid rgb(143, 229, 208);
+    border: 3px solid var(--aqua-01);
     border-radius: 5px;
     flex-direction: column;
 }
@@ -138,7 +152,7 @@ transform: rotate(90deg);
     left: -5.1px;
     width: 79.5px;
     height: 4px;
-    background:  rgb(143, 229, 208);
+    background:  var(--aqua-01);
     border-radius: 5px;
 
 }
@@ -152,7 +166,7 @@ transform: rotate(90deg);
     right: -9px;
     width: 35px;
     height: 3px;
-    background: #fff;
+    background: var(--w);
     border-radius: 5px;
     transform: rotate(-45deg);
 
@@ -166,7 +180,7 @@ transform: rotate(90deg);
     left: 25px;
     width: 35px;
     height: 3px;
-    background: #fff;
+    background: var(--w);
     border-radius: 5px;
     transform: rotate(45deg);
 }
@@ -194,7 +208,7 @@ transform: rotate(90deg);
     margin-bottom: 4px;
     width: 20px;
     height: 2px;
-    background: white;
+    background: var(--w);
     border-radius: 4px;
 
 }
@@ -233,7 +247,7 @@ transform: rotate(90deg);
     right: 14px;
     bottom: -10px;
     font-family: 'JetBrains Mono', sans-serif;
-    color: #fff;
+    color: var(--w);
     font-size: 0.5rem;
     font-weight: 300;
 }
@@ -286,7 +300,7 @@ gap: 5px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background:  rgb(143, 229, 208);
+    background:  var(--aqua-01);
 
 }
 
@@ -294,9 +308,22 @@ gap: 5px;
 
 .term-code {
 
+    line-height: 1.5;
     display: flex;
-    flex-direction: row;
+    position: relative;
+    top: 35px;
+    left: 25px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-family: 'JetBrains Mono';
 
+}
+
+
+.term-code p {
+
+user-select: none;
+    
 }
 
 
