@@ -1,4 +1,4 @@
-# My_Design_CSS
+# CARDS CSS
 ## all cards are in static position, the animation below was inserted together with the `vivify` library in a different project. It's just a demonstration of what you can do with the cards in this repository.
 <br/>
 <div align="center" >
