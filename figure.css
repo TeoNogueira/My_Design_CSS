@@ -25,45 +25,49 @@
 
 
 
+
+
 .photo-style-one {
 
 position: relative;
 display: flex;
 width: 358px;
 height: 580px;
-background: linear-gradient(#040507, #0c0c0c);
+background: linear-gradient(#060704, #0c0c0c);
 border-radius: 6px;
 flex-direction: column;
 opacity: 0.9;
+cursor: pointer;
 
 }
 
 .ps-text {
 position: relative;
-top: 50px;
+top: 55px;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
 .photo-style-one .ps-text h1 {
-    color: #fff !important;
+    color: #fff;
     user-select: none;
     font-family: 'Roboto Slab', sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.0;
     text-align: center;
+    
 }
 
 .photo-style-one h3 {
-    color: #fff !important;
+    color: #fff;
     user-select: none;
     line-height: 0.7;
     flex-direction: flex-start;
-    font-family: 'DM Sans', sans-serif  !important;
-    font-size: 2rem;
-    font-weight: 100;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 27.4px;
+    font-weight: 600;
     text-align: center;
    
     
@@ -111,6 +115,7 @@ flex-direction: column;
 justify-content: center;
 
 }
+
 .small-sect {
 
 display: flex;
